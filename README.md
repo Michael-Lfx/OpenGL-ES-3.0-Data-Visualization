@@ -1,4 +1,4 @@
-本项目存放了OpenGL ES数据可视化系列博客的代码，已分表的博客如下：
+本项目存放了OpenGL ES数据可视化系列博客的代码，已发布的博客如下：
 
 - [OpenGL ES 3.0 数据可视化 0：Hello world](http://www.jianshu.com/p/9ece99f1adda)
 - [OpenGL ES 3.0 数据可视化 1：绘制圆点](http://www.jianshu.com/p/80dff12b57b7)
