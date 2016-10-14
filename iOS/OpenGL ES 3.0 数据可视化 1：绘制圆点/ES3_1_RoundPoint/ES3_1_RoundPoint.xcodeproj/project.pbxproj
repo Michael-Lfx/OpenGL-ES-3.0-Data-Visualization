@@ -115,7 +115,6 @@
 				TargetAttributes = {
 					4C1D9F561DAF8E46001234C1 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = C65NGF4G9P;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -279,7 +278,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C65NGF4G9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ES3_1_RoundPoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.michael-lfx.ES3-1-RoundPoint";
@@ -291,7 +290,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = C65NGF4G9P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = ES3_1_RoundPoint/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "io.github.michael-lfx.ES3-1-RoundPoint";
@@ -318,6 +317,7 @@
 				4C1D9F701DAF8E46001234C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
