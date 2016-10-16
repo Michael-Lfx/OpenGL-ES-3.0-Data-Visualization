@@ -65,7 +65,7 @@
     "out vec4 fragColor; "
     "void main() { "
     "    if (length(gl_PointCoord - vec2(0.5, 0.5)) > 0.5) { discard; }"
-    "    fragColor = vec4(1.0, 0.0, 1.0, 1.0);"
+    "    fragColor = vec4(1.0, 1.0, 1.0, 1.0);"
     "}";
 #else
     char *fragmentShaderContent =
@@ -73,7 +73,7 @@
     "precision highp float; "
     "out vec4 fragColor; "
     "void main() { "
-    "fragColor = vec4(1.0, 0.0, 1.0, 1.0);"
+    "fragColor = vec4(1.0, 1.0, 1.0, 1.0);"
     "}";
 #endif
     GLuint fragmentShader = compileShader(fragmentShaderContent, GL_FRAGMENT_SHADER);
@@ -101,7 +101,7 @@
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     
-    glClearColor(1, 1, 1, 1.0);
+    glClearColor(0, 0, 0, 1.0);
     glClear(GL_COLOR_BUFFER_BIT);
     
     glViewport(0, 0, renderbufferWidth, renderbufferHeight);
