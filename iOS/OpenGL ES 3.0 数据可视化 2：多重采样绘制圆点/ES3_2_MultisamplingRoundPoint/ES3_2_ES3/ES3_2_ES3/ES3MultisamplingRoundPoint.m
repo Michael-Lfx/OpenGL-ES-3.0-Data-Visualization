@@ -54,7 +54,7 @@
     
     glGenRenderbuffers(1, msaaRenderbuffer);
     glBindRenderbuffer(GL_RENDERBUFFER, msaaRenderbuffer[0]);
-    glRenderbufferStorageMultisample(GL_RENDERBUFFER, 4, GL_RGBA, width, height);
+    glRenderbufferStorageMultisample(GL_RENDERBUFFER, 4, GL_RGBA8, width, height);
     
     glGenFramebuffers(1, msaaFramebuffer);
     glBindFramebuffer(GL_FRAMEBUFFER, msaaFramebuffer[0]);
